@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edtNome" type="id" />
+    <item name="edtEndereco" type="id" />
+    <item name="edtBairro" type="id" />
+    <item name="edtCep" type="id" />
+    <item name="edtTelefone" type="id" />
+    <item name="btnCadastrar" type="id" />
+    <item name="btnConfirmar" type="id" />
+</resources>

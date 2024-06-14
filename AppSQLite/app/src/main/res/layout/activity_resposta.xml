@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:hint="@string/nome"
+        android:inputType="textPersonName"
+        android:importantForAutofill="yes"
+        android:autofillHints="name"
+        android:textColor="@color/black"
+        android:background="@color/white" />
+
+    <EditText
+        android:id="@+id/edtEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:hint="@string/endereco"
+        android:inputType="textPostalAddress"
+        android:importantForAutofill="yes"
+        android:autofillHints="postalAddress"
+        android:textColor="@color/black"
+        android:background="@color/white" />
+
+    <EditText
+        android:id="@+id/edtBairro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:hint="@string/bairro"
+        android:inputType="text"
+        android:importantForAutofill="yes"
+        android:autofillHints="addressLocality"
+        android:textColor="@color/black"
+        android:background="@color/white" />
+
+    <EditText
+        android:id="@+id/edtCep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:hint="@string/cep"
+        android:inputType="number"
+        android:importantForAutofill="yes"
+        android:autofillHints="postalCode"
+        android:textColor="@color/black"
+        android:background="@color/white" />
+
+    <EditText
+        android:id="@+id/edtTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:hint="@string/telefone"
+        android:inputType="phone"
+        android:importantForAutofill="yes"
+        android:autofillHints="phoneNumber"
+        android:textColor="@color/black"
+        android:background="@color/white" />
+
+    <Button
+        android:id="@+id/btnConfirmar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirmar" />
+</LinearLayout>

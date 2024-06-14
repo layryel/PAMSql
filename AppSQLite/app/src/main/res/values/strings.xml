@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppSQLite</string>
+    <string name="nome">Nome</string>
+    <string name="endereco">Endereço</string>
+    <string name="bairro">Bairro</string>
+    <string name="cep">CEP</string>
+    <string name="telefone">Telefone</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="confirmar">Confirmar</string>
+</resources>
